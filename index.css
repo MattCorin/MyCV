@@ -1,0 +1,138 @@
+html, body {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  vertical-align: baseline;
+  background-color: #60c6d8;
+  background-image: linear-gradient(300deg, #60c6d8 0%, #095286 70%);
+}
+
+h1, h3 {
+  text-decoration: underline;
+}
+
+header {
+  text-align: center;
+  min-height: 300px;
+  padding: 8%;
+}
+
+header img {
+  border: 5px solid white;
+  padding: 1%;
+}
+
+.bio {
+  background-color: #1d72b8;
+  color: white;
+  padding: 35px;
+  min-height: 450px;
+}
+
+.resume_skills {
+  background: white;
+  -webkit-box-shadow: 0px 1px 5px rgba(50, 50, 50, 0.08);
+          box-shadow: 0px 1px 5px rgba(50, 50, 50, 0.08);
+  padding: 35px;
+  min-height: 450px;
+}
+
+.resume_skills ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10px;
+  color: #0e1f25;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1%;
+}
+
+.resume_skills ul li .skill_name {
+  width: 20%;
+  color: black;
+  font-weight: bold;
+}
+
+.resume_skills ul li .skill_progress {
+  width: 60%;
+  margin: 0 10px;
+  height: 5px;
+  background: #fbff00;
+  position: relative;
+}
+
+.resume_skills ul li .skill_per {
+  width: 20%;
+  color: black;
+}
+
+.resume_skills ul li .skill_progress span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: black;
+}
+
+.education {
+  background: white;
+  -webkit-box-shadow: 0px 1px 5px rgba(50, 50, 50, 0.08);
+          box-shadow: 0px 1px 5px rgba(50, 50, 50, 0.08);
+  padding: 35px;
+  min-height: 700px;
+}
+
+.education .education-content {
+  padding-bottom: 14px;
+}
+
+.education span {
+  padding-right: 120px;
+  padding-left: 20px;
+}
+
+.interests {
+  background-color: #1d72b8;
+  color: white;
+  padding: 35px;
+  min-height: 700px;
+}
+
+.interests ul li {
+  font-size: larger;
+  padding-bottom: 10%;
+}
+
+.contact {
+  background-color: #1d72b8;
+  color: white;
+  padding: 35px;
+  min-height: 950px;
+}
+
+.contact p {
+  font-size: larger;
+  padding: 15px;
+}
+
+.experience {
+  background: white;
+  -webkit-box-shadow: 0px 1px 5px rgba(50, 50, 50, 0.08);
+          box-shadow: 0px 1px 5px rgba(50, 50, 50, 0.08);
+  padding: 35px;
+  min-height: 950px;
+}
+
+.experience span {
+  padding-right: 120px;
+  padding-left: 20px;
+}
+/*# sourceMappingURL=index.css.map */

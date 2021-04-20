@@ -1,0 +1,147 @@
+
+//Styling the background, giving nice color gradient effect. https://www.youtube.com/watch?v=XpaDwp8k_Mc used to help
+html, body {
+    margin:0;border:0;padding:0;
+    font-size:16px;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    vertical-align: baseline;
+    background-color: #60c6d8;
+    background-image: linear-gradient(300deg, #60c6d8 0%, #095286 70%);
+  
+  }
+
+  //Underline headings
+h1,h3{
+    text-decoration: underline;
+}
+
+// Styling the header that includes my name, title and proffessional picture
+header{
+    text-align: center;
+    min-height: 300px;
+    padding: 8%;
+}
+
+header img{
+    border: 5px solid rgb(255, 255, 255);
+    padding: 1%;
+}
+
+//Styling the Bio section
+
+.bio{
+   background-color: rgb(29, 114, 184);
+    color: white;
+    padding: 35px;
+    min-height: 450px;
+}
+
+
+//Creating the styling effects for the skills bars
+.resume_skills{
+     background: white;
+    box-shadow: 0px 1px 5px rgba(50,50,50,0.08);
+    padding: 35px;
+    min-height: 450px;
+}
+
+//styling the spacing and layout of the individual elements
+ .resume_skills ul li {
+    display: flex;
+    margin-bottom: 10px;
+    color: #0e1f25;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+  }
+  
+  //styling the names of the skills
+ .resume_skills ul li .skill_name {
+    width: 20%;
+    color: black;
+    font-weight: bold;
+
+  }
+  
+  //background of the progress bar
+   .resume_skills ul li .skill_progress {
+    width: 60%;
+    margin: 0 10px;
+    height: 5px;
+    background: #fbff00;
+    position: relative;
+  }
+  
+  //right sided writing
+  .resume_skills ul li .skill_per {
+    width: 20%;
+    color: black;
+    
+  }
+  
+//span used to show progress bar
+ .resume_skills ul li .skill_progress span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: rgb(0, 0, 0);
+  }
+  
+//Styling the education section
+.education{
+    background: white;
+    box-shadow: 0px 1px 5px rgba(50,50,50,0.08);
+    padding: 35px;
+    min-height: 700px;
+}
+ 
+.education .education-content {
+    padding-bottom: 14px;
+  }
+ 
+  .education span {
+    padding-right: 120px;
+    padding-left: 20px;//spacing the dates away from the headings
+  }
+  
+//Styling the interests section
+
+.interests{
+   background-color: rgb(29, 114, 184);
+    color: white;
+    padding: 35px;
+    min-height: 700px;
+}
+
+.interests ul li{
+    font-size: larger;
+    padding-bottom: 10%;
+}
+
+//Styling the contacts section
+.contact{
+    background-color: rgb(29, 114, 184);
+    color: white;
+    padding: 35px;
+    min-height: 950px;
+}
+
+.contact p{
+    font-size: larger;
+    padding: 15px;
+}
+
+//Styling the Experience section
+.experience{
+    background: white;
+    box-shadow: 0px 1px 5px rgba(50,50,50,0.08);
+    padding: 35px;
+    min-height: 950px;
+}
+
+.experience span{
+    padding-right: 120px;
+    padding-left: 20px;
+}
